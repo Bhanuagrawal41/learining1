@@ -9,3 +9,18 @@
 .upvote{
     background-color: green;
 }
+p + h3 {
+ text-decoration: underline;
+}
+nav a{
+    color: hotpink;
+}
+button:hover{
+    background-color: hotpink;
+    color: white;
+}
+h3:hover{
+    color: aqua;
+    font-size: large;
+    text-decoration: overline;
+}
