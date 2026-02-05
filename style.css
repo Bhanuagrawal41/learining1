@@ -1,5 +1,8 @@
-h1{
-    color: red;
-    text-align: center;
-    border: 50;
+
+
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: red;
 }
