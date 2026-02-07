@@ -1,6 +1,12 @@
 div{
-    border: 2px solid black;
+    border: 3px solid black;
      border-radius: 10px ;
-     height: 200px;
+     height: 400px;
      width: 500px;
+     background-color: hotpink;
+     color: tomato;
+      font-family: cursive;
+      padding: 10px;
+      margin: 10px;
+
 }
