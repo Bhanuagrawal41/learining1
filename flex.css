@@ -1,0 +1,16 @@
+#luck{
+    display: flex;
+    height: 500px;
+    width: 900px;
+    border: 2px black solid;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+div{
+    height: 50px;
+    width: 50px;
+     border: 2px black solid;
+}
