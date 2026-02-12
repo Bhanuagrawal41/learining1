@@ -66,31 +66,63 @@
 //       console.log("light is broken");
 // }
 
-let num = 2;
+// let num = 2;
 
-switch (num){
-   case 1:
-      console.log("monday");
-      break;
-   case 2:
-   console.log("tuesday" );
-   break;
+// switch (num){
+//    case 1:
+//       console.log("monday");
+//       break;
+//    case 2:
+//    console.log("tuesday" );
+//    break;
 
-   case 3:
-      console.log("wednesday");
-      break;
-   case 4:
-      console.log("thursday");
-      break;
+//    case 3:
+//       console.log("wednesday");
+//       break;
+//    case 4:
+//       console.log("thursday");
+//       break;
 
-   case 5:
-      console.log("friday");
-      break;
-   case 6:
-      console.log("saterday");
-      break;
+//    case 5:
+//       console.log("friday");
+//       break;
+//    case 6:
+//       console.log("saterday");
+//       break;
 
-   case 7:
-      console.log("sunday");
-      break;
-}
+//    case 7:
+//       console.log("sunday");
+//       break;
+// }
+
+
+// let password = "   hello  ";
+// let newpassword = password.trim();
+// console.log(password)
+
+
+// let str = "gangar";
+// let str2 = "bankaai";
+// console.log(str2.toUpperCase());
+// let newstr = str.toUpperCase();
+// console.log(newstr);
+
+//method chaining -----------------//
+// let msg = "  hellow   ";
+// let newmsg = msg.trim().toUpperCase();
+// console.log(newmsg);
+
+
+// let str = "i love coding";
+// let newstr = str.trim().toUpperCase();
+// console.log(newstr); 
+
+
+// let car = ["maruti", "honda", "tata", "hyundai"];
+
+
+
+// array methods --------//
+
+
+
