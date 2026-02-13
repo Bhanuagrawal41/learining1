@@ -126,3 +126,34 @@
 
 
 
+// let months = ["januray", "july", "march", "august"];
+ 
+
+// let cars = ["audi", "bmw", 'maruti', "toyota"];
+
+// let car = ["volkswagen", "nissan", "supra"
+
+// ];
+
+// console.log(cars)
+
+
+//slicing in arrays----------//
+
+// let colors = ["red,", "yellow", "blue", "orange", "pink", "white"];
+
+
+
+//splice method in javascript ------------------//
+
+
+
+//nested array in javascript------------------//
+
+// let nums = [['x', "null", 'o'],['null', 'x','null'],['0', 'null','x']];
+
+
+for(let i = 10; i >= 1; i--){
+    console.log(i, "hello");
+
+}  
