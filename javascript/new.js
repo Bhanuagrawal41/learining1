@@ -153,7 +153,15 @@
 // let nums = [['x', "null", 'o'],['null', 'x','null'],['0', 'null','x']];
 
 
-for(let i = 10; i >= 1; i--){
-    console.log(i, "hello");
+// for(let i = 10; i >= 1; i=i-2){
+//     console.log(i, "hello");
 
-}  
+// }  
+
+// let n = prompt("enter a number");
+//  n = parseInt(n);
+
+// for (let i = n; i<=n*10; i = i+n){
+//     console .log(i)
+// }
+
