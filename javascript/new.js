@@ -165,3 +165,17 @@
 //     console .log(i)
 // }
 
+let arr = [1, 2, 3, 4, 5];
+
+// map → create new array
+let doubled = arr.map(x => x * 2);
+
+// filter → condition based
+let even = arr.filter(x => x % 2 === 0);
+
+// find → first match
+let firstEven = arr.find(x => x % 2 === 0);
+
+console.log(doubled);
+console.log(even);
+console.log(firstEven);
