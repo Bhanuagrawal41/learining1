@@ -81,12 +81,26 @@
 // }
 
 
-function outerFunc(){
-    let x = 5;
-    let y = 6;
-    function innerfunc(){
-        console.log(x+y);
+// function outerFunc(){
+//     let x = 5;
+//     let y = 6;
+//     function innerfunc(){
+//         console.log(x+y);
+//     }
+//     innerfunc();
+// }
+// outerFunc();
+
+
+
+let greet = "hello";
+function ChangeGreet(){
+    let greet  = "namaste";
+    console.log(greet);
+
+    function innerGreet(){
+        console.log(greet);
     }
-    innerfunc();
 }
-outerFunc();
+console.log(greet);
+ChangeGreet();
