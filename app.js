@@ -93,14 +93,41 @@
 
 
 
-let greet = "hello";
-function ChangeGreet(){
-    let greet  = "namaste";
-    console.log(greet);
+// let greet = "hello";
+// function ChangeGreet(){
+//     let greet  = "namaste";
+//     console.log(greet);
 
-    function innerGreet(){
-        console.log(greet);
+//     function innerGreet(){
+//         console.log(greet);
+//     }
+// }
+// console.log(greet);
+// ChangeGreet();
+
+///funciton expression//
+
+
+// let name = "bhanu";
+// let sum = function(a, b){
+//     return a+b;
+// }
+
+
+// high oreder funciton 
+
+// function which takes or eat function in argumeent means in fucntion argument taking the fucntion as an argument//
+function mutlipleGreet(func, count){
+    for(let i=1; i<=count; i++){
+        func();
     }
 }
-console.log(greet);
-ChangeGreet();
+
+
+
+let greet = function(){
+    console.log("hello");
+    
+}
+
+mutlipleGreet(function() { console.log("namaste")}, 1000);
