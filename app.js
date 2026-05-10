@@ -209,13 +209,26 @@
 
 
 //Miscellaneous Topics //
+//arrow function 
 
-const sum = (a,b) => {
-    console.log(a+b);
-};
+// const sum = (a,b) => {
+//     console.log(a+b);
+// };
 
 
 
-const cube = (n) => {
-    return n*n*n;
-};
+// const cube = (n) => {
+//     return n*n*n;
+// };
+
+
+// set timeout funciton ///
+
+
+console.log("hi there!");
+
+setTimeout(() => {
+    console.log("hey there");
+} , 4000);
+
+console.log("welocme");
