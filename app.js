@@ -175,15 +175,31 @@
 // }
 
 
-const student = {
-    name: "bhanu",
-    age: 23,
-    eng: 99,
-    math: 98,
-    phy: 95,
-    getAvg(){
-        let avg = (this.eng + this.math + this.phy)/3;
-        console.log(avg);
-    }
+// const student = {
+//     name: "bhanu",
+//     age: 23,
+//     eng: 99,
+//     math: 98,
+//     phy: 95,
+//     getAvg(){
+//         let avg = (this.eng + this.math + this.phy)/3;
+//         console.log(avg);
+//     }
 
+// }
+
+
+
+// error handling in javascript //
+
+
+console.log("hello");
+console.log("hello");
+
+try{
+    console.log(a);
+}catch{
+    console.log("cought an error... a is not defined");
 }
+
+console.log("hello2");
