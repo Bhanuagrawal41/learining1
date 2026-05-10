@@ -117,17 +117,55 @@
 // high oreder funciton 
 
 // function which takes or eat function in argumeent means in fucntion argument taking the fucntion as an argument//
-function mutlipleGreet(func, count){
-    for(let i=1; i<=count; i++){
-        func();
+// function mutlipleGreet(func, count){
+//     for(let i=1; i<=count; i++){
+//         func();
+//     }
+// }
+
+
+
+// let greet = function(){
+//     console.log("hello");
+    
+// }
+
+// mutlipleGreet(function() { console.log("namaste")}, 1000);
+
+
+
+ 
+
+
+
+// function oddOrEvenFactory(request){
+//     if(request == "odd"){
+//         let odd = function(n){
+//     console.log(!(n%2 == 0));
+//     return odd;
+
+// }
+//     }
+
+
+//     else if(request == "even"){
+//         let even = function(n){
+//     console.log(n%2 == 0);
+//        }
+//      return even;
+//     }else{
+//         console.log("wrong request");
+//     }
+// }
+
+
+// let request = "odd";
+
+
+
+
+const Calculator = {
+    add: function(a,b){
+        return a+b;
     }
 }
-
-
-
-let greet = function(){
-    console.log("hello");
-    
-}
-
-mutlipleGreet(function() { console.log("namaste")}, 1000);
