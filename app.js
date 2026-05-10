@@ -193,13 +193,29 @@
 // error handling in javascript //
 
 
-console.log("hello");
-console.log("hello");
+// console.log("hello");
+// console.log("hello");
 
-try{
-    console.log(a);
-}catch{
-    console.log("cought an error... a is not defined");
-}
+// try{
+//     console.log(a);
+// }catch{
+//     console.log("cought an error... a is not defined");
+// }
 
-console.log("hello2");
+// console.log("hello2");
+
+
+
+
+
+//Miscellaneous Topics //
+
+const sum = (a,b) => {
+    console.log(a+b);
+};
+
+
+
+const cube = (n) => {
+    return n*n*n;
+};
