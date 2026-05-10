@@ -164,8 +164,26 @@
 
 
 
-const Calculator = {
-    add: function(a,b){
-        return a+b;
+// const Calculator = {
+//     add: function(a,b){
+//         return a+b;
+//     },
+
+//     multiply: function(a,b){
+//         return a*b;
+//     }
+// }
+
+
+const student = {
+    name: "bhanu",
+    age: 23,
+    eng: 99,
+    math: 98,
+    phy: 95,
+    getAvg(){
+        let avg = (this.eng + this.math + this.phy)/3;
+        console.log(avg);
     }
+
 }
