@@ -225,10 +225,30 @@
 // set timeout funciton ///
 
 
-console.log("hi there!");
+// console.log("hi there!");
 
-setTimeout(() => {
-    console.log("hey there");
-} , 4000);
+// setTimeout(() => {
+//     console.log("hey there");
+// } , 4000);
 
-console.log("welocme");
+// console.log("welocme");
+
+let students = [
+    {
+        name : "bhanu",
+        marks: 99,
+    },
+
+    {
+        name: "rishika",
+        marks: 100,
+    },
+    
+];
+
+
+
+let gpa = students.map((el) => {
+    return el.marks / 10;
+
+});
